@@ -27,7 +27,16 @@ A simple 'Hello World' web application using Webpack.
 In app03, `dist/main.js` contains both the application source js code and the vendor jquery code. This app is to demonstrate how to separate them out.
 
 * Create `src/vendor.js` and update `webpack.config.js`
-* Add new plugin
+* Add new plugin: CommonsChunkPlugin
+
+## app05
+
+This shows how to transpile typescript to JavaScript using webpack
+
+* install typescript: `yarn add typescript @types/node @types/core-js @types/jquery  --dev`
+* create `tsconfig.json`
+* install webpack typescript loader: `yarn add awesome-typescript-loader --dev`
+* replace `[app,content].js` with `[app,content].ts` and update webpack.config.js
 
 
 
