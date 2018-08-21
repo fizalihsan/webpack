@@ -38,6 +38,12 @@ This shows how to transpile typescript to JavaScript using webpack
 * install webpack typescript loader: `yarn add awesome-typescript-loader --dev`
 * replace `[app,content].js` with `[app,content].ts` and update webpack.config.js
 
+## app06
 
+Adding support for SCSS to CSS transpilation
+
+* install node-sass: `yarn add node-sass sass-loader --dev`
+* add loader rules in webpack.config.json
+* change message.css to message.scss
 
 > Source: https://www.edc4it.com/blog/web/webpack-tutorial.html
